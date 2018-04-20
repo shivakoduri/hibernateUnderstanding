@@ -3,11 +3,11 @@ package com.myprojects.examples.hibernate.demo.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "author")
+@Table(name = "author", schema = "mytestdb")
 public class Author {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id", updatable = false, nullable = false)
     private Long id;
 
