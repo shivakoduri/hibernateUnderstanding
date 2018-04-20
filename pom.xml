@@ -15,6 +15,7 @@
   
   <modules>
   	<module>01-LogQueryExecutionTime</module>
+	<module>02QueryPagination</module>
   </modules>
   
   <dependencyManagement>
