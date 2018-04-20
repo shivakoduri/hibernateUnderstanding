@@ -1,10 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+
   <parent>
     <groupId>com.myprojects.examples</groupId>
     <artifactId>hibernateUnderstanding</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
+
   <artifactId>01-LogQueryExecutionTime</artifactId>
   <name>01-LogQueryExecutionTime</name>
   <packaging>jar</packaging>
@@ -28,11 +30,11 @@
 		<artifactId>junit</artifactId>
 		<scope>test</scope>
 	</dependency>
-	<dependency>
+	<!--<dependency>
 		<groupId>org.postgresql</groupId>
 		<artifactId>postgresql</artifactId>
 		<scope>test</scope>
-	</dependency>
+	</dependency>-->
 	<dependency>
 		<groupId>log4j</groupId>
 		<artifactId>log4j</artifactId>
@@ -43,5 +45,10 @@
 		<artifactId>slf4j-log4j12</artifactId>
 		<scope>test</scope>
 	</dependency>
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <scope>test</scope>
+    </dependency>
 </dependencies>
 </project>
