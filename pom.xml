@@ -20,6 +20,7 @@
       <module>04-Formula</module>
       <module>05-DatabaseViews</module>
       <module>06-OrderRelationships</module>
+      <module>07-SortRelationshipsNatural</module>
   </modules>
   
   <dependencyManagement>
