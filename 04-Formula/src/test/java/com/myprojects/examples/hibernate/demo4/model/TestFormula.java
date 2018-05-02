@@ -25,7 +25,7 @@ public class TestFormula {
         emf.close();
     }
 
-    //@Test
+    @Test
     public void emFind(){
         log.info("..emFind..");
 

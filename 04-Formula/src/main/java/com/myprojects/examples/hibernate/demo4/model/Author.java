@@ -26,7 +26,8 @@ public class Author {
     @Column(columnDefinition = "DATE")
     private LocalDate dateOfBirth;
 
-    @Formula(value = "date_part('year', age(dateOfBirth))")
+    //    @Formula(value = "date_part('year', age(dateOfBirth))")
+    @Formula(value = "44")
     private int age;
 
     public Long getId() {
