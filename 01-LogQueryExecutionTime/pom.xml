@@ -6,7 +6,7 @@
     <artifactId>hibernateUnderstanding</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-
+  <groupId>com.myprojects.examples.hibernateUnderstanding</groupId>
   <artifactId>01-LogQueryExecutionTime</artifactId>
   <name>01-LogQueryExecutionTime</name>
   <packaging>jar</packaging>

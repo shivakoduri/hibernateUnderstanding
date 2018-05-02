@@ -9,9 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.myprojects.examples.hibernateUnderstanding</groupId>
-    <artifactId>05-DatabaseViews</artifactId>
+    <artifactId>06-OrderRelationships</artifactId>
     <packaging>jar</packaging>
-    <description>Database Views</description>
+    <description>Order Relationships</description>
 
     <dependencies>
         <dependency>
@@ -52,4 +52,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+
 </project>
