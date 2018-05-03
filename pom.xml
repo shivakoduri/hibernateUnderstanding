@@ -21,6 +21,7 @@
       <module>05-DatabaseViews</module>
       <module>06-OrderRelationships</module>
       <module>07-SortRelationshipsNatural</module>
+      <module>08-SortRelationshipsCustom</module>
   </modules>
   
   <dependencyManagement>
