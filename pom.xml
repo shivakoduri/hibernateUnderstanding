@@ -23,6 +23,7 @@
       <module>07-SortRelationshipsNatural</module>
       <module>08-SortRelationshipsCustom</module>
       <module>09_PrimaryKeyUuidRandomNumber</module>
+      <module>10-PrimaryKeyUuidIP</module>
   </modules>
   
   <dependencyManagement>
