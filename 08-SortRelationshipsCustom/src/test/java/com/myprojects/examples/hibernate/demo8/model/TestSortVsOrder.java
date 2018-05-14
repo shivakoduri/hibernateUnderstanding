@@ -5,8 +5,10 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+import javax.persistence.TypedQuery;
 
 public class TestSortVsOrder {
 
@@ -27,6 +29,22 @@ public class TestSortVsOrder {
     @Test
     public void sortBooks(){
         log.info("..testPersist...");
+
+        EntityManager em = emf.createEntityManager();
+        em.getTransaction().begin();
+
+        TypedQuery<Author> q = em.createQuery("SELECT a FROM Author a JOIN FETCH a.books b WHERE a.id = :id", Author.class);
+        q.setParameter("id", 1L);
+
+        Author a = q.getSingleResult();
+
+        log.info(a);
+        for(Book b: a.getBooks()){
+            log.info(b);
+        }
+
+        em.getTransaction().commit();
+        em.close();
     }
 
 }
