@@ -28,6 +28,7 @@
 	  <module>12-DateAndTime</module>
       <module>13-AttributeConverterForDateAndTime</module>
       <module>14-MultiTenancy</module>
+      <module>15-Auditing</module>
   </modules>
   
   <dependencyManagement>
