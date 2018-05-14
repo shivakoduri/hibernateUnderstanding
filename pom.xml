@@ -24,6 +24,7 @@
       <module>08-SortRelationshipsCustom</module>
       <module>09_PrimaryKeyUuidRandomNumber</module>
       <module>10-PrimaryKeyUuidIP</module>
+      <module>11-MapOptionalAssociations</module>
   </modules>
   
   <dependencyManagement>
