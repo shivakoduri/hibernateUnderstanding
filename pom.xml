@@ -26,6 +26,7 @@
       <module>10-PrimaryKeyUuidIP</module>
       <module>11-MapOptionalAssociations</module>
 	  <module>12-DateAndTime</module>
+      <module>13-AttributeConverterForDateAndTime</module>
   </modules>
   
   <dependencyManagement>
