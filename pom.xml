@@ -27,6 +27,7 @@
       <module>11-MapOptionalAssociations</module>
 	  <module>12-DateAndTime</module>
       <module>13-AttributeConverterForDateAndTime</module>
+      <module>14-MultiTenancy</module>
   </modules>
   
   <dependencyManagement>
